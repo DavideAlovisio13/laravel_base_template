@@ -55,6 +55,7 @@ git push -u origin main
 ```
 ## Clono progetto da github 
 
+<<<<<<< HEAD
 ```bash
 # copio file .env.example e lo rinomino in .env
 
@@ -97,3 +98,16 @@ php artisan make:controller NomeController
 # creo le views relative
 
 ```
+=======
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+HOW TO USE:
+- fare copia del file env.example
+- rinominare in .env
+- composer install
+- php artisan key:generate
+- npm install
+- php artisan serve
+- npm run dev
+>>>>>>> 10c471ee2844fcf40d3153045cd384074e580d08
