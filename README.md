@@ -110,4 +110,8 @@ HOW TO USE:
 - npm install
 - php artisan serve
 - npm run dev
->>>>>>> 10c471ee2844fcf40d3153045cd384074e580d08
+
+PER PULIRE:
+- composer dump-autoload
+- php artisan cache:clear
+- php artisan config:cache
